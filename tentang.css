@@ -1,0 +1,48 @@
+body{
+    padding: 61px 91px ;
+    font-family: 'Inter';
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 38px;
+}
+
+.header h1{
+    margin: 0;
+    color: #015D67;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.header p{
+    width: 50%; /* Lebar maksimal elemen */
+    word-wrap: break-word; /* Pecah kata yang terlalu panjang */
+    overflow-wrap: break-word; /* Pecah kata yang terlalu panjang */
+    opacity: 60%;
+}
+
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 16px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #015D67;
+    width: 822px;
+    border-radius: 16px;
+    padding: 16px 24px;
+    color: #E4EEEF;
+}
+
+.card h2{
+    margin: 0;
+}

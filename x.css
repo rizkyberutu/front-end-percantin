@@ -1,0 +1,7 @@
+<div class="sub-body-modal">
+<label for="kelompok-gejala">Kelompok Gejala</label>
+<select id="kelompok-gejala" name="kelompok-gejala">
+  <option value="satu">Satu</option>
+  <option value="dua" selected>Dua</option>  
+</select>    
+</div>

@@ -1,0 +1,113 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+    width: 100%;
+    background: var(--Whites, #E4EEEF);
+}
+
+a {
+    color: #2D2E2E; 
+    text-decoration: none; 
+}
+
+.navbar{
+    transform: translateX(80px);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 58px;
+}
+
+.daftar-masuk {
+    display: flex;
+    gap: 32px;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 45.5px;
+    border-radius: 5px;
+    border: 2.55px solid #00ABB2;
+    color: #2D2E2E;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+.teks-1{
+    color: var(--white---color, #2D2E2E);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    margin: 0;
+}
+
+.teks-2{
+    color: var(--white---color, #2D2E2E);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    margin: 0;
+}
+
+.teks-3{
+    color: black;
+    
+}
+
+.span-1 {
+    font-weight: bold;
+}
+
+.btn-masuk{
+    border-radius: 7.5px;
+    background: var(--primary---color, #015D67);
+    width: 240px;
+    height: 50px;
+    color: #FFFAFA;
+    font-size: 1rem;
+}
+
+.home{
+    position: relative;
+    padding: 0 100px;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-home{
+    position: absolute;
+    opacity: 20%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.desc{
+    margin-bottom: 48px;
+}
